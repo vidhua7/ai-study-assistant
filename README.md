@@ -22,8 +22,8 @@ An AI-powered study application built with Python, Streamlit, and Google's Gemin
 Clone the repository and enter the project directory:
 
 ```bash
-git clone YOUR_REPOSITORY_URL
-cd YOUR_REPOSITORY_NAME
+git clone https://github.com/vidhua7/ai-study-assistant
+cd ai-study-assistant
 ```
 
 Install dependencies:
