@@ -34,7 +34,7 @@ if not api_key:
     st.stop()
 
 client = genai.Client(api_key=api_key)
-MODEL = "gemini-3.5-flash-lite"
+MODEL = "gemini-2.5-flash"
 
 # --------------------------------------------------
 # SESSION STATE

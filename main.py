@@ -12,7 +12,7 @@ if not api_key:
 client = genai.Client(api_key=api_key)
 
 chat = client.chats.create(
-    model="gemini-3.5-flash-lite",
+    model="gemini-2.5-flash",
     config=types.GenerateContentConfig(
         tools=[calculate]
     )
